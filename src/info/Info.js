@@ -37,11 +37,11 @@ export const info = {
     },
     {
       emoji: '🌎',
-      text: 'based in the US',
+      text: 'based in the India',
     },
     {
       emoji: '💼',
-      text: 'Systems Engineer at Google',
+      text: 'Software Engineer at Edwisely',
     },
     {
       emoji: '📧',
@@ -55,17 +55,17 @@ export const info = {
       label: 'facebook',
     },
     {
-      link: 'https://instagram.com',
+      link: 'https://www.instagram.com/kashyapvishnudas?igsh=MXJsc3p2djNtaXc5ZQ%3D%3D&utm_source=qr',
       icon: 'fa fa-instagram',
       label: 'instagram',
     },
     {
-      link: 'https://github.com',
+      link: 'https://github.com/Vkashyap1729',
       icon: 'fa fa-github',
       label: 'github',
     },
     {
-      link: 'https://linkedin.com',
+      link: 'https://www.linkedin.com/in/kashyap-vishnudas-317529237/',
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
@@ -77,11 +77,15 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+  bio: "Hello! I'm Kashyap Vishnudas, a passionate tech enthusiast on a mission to leave a positive mark in the world of technology. With a strong foundation in Java, Python, C++, and expertise in data structures, I thrive on solving complex problems and crafting elegant solutions. My journey in tech has been fueled by a relentless curiosity and a drive to learn and adapt to emerging technologies., and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
   skills: {
     proficientWith: [
       'javascript',
+      'python',
       'react',
+      'flask',
+      'django',
+      'sql',
       'git',
       'github',
       'bootstrap',
@@ -89,52 +93,54 @@ export const info = {
       'css3',
       'figma',
     ],
-    exposedTo: ['nodejs', 'python', 'adobe illustrator'],
+    exposedTo: ['nodejs', 'Express', 'Dockers'],
   },
   hobbies: [
     {
-      label: 'reading',
-      emoji: '📖',
+      label: 'gym',
+      emoji: '💪🏻',
     },
     {
-      label: 'theater',
-      emoji: '🎭',
+      label: 'travel',
+      emoji: '🧭',
     },
     {
       label: 'movies',
       emoji: '🎥',
     },
     {
+      label: 'badminton',
+      emoji: '🎾',
+    },
+    {
       label: 'cooking',
       emoji: '🌶',
     },
-    // Same as above, change the emojis to match / relate to your hobbies or interests.
-    // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: 'Project 1',
-      live: 'https://paytonpierce.dev', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/paytonjewell', // this should be a link to the **repository** of the project, where the code is hosted.
+      title: 'Portfolio website',
+      live: 'https://master--kashyapvishnudas.netlify.app/',
+      source: 'https://github.com/Vkashyap1729/my_portfolio_live.git',
       image: mock1,
     },
     {
-      title: 'Project 2',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+      title: 'Blogful: Blog website',
+      live: 'https://vkashyap1729.github.io/BolgFul/loading.html',
+      source: 'https://github.com/Vkashyap1729/BolgFul.git',
       image: mock2,
     },
     {
-      title: 'Project 3',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+      title: 'College Student Management',
+      live: 'https://edwisely2-0.netlify.app/',
+      source: 'https://github.com/Vkashyap1729/Edwisely2.0.git',
       image: mock3,
     },
     {
-      title: 'Project 4',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+      title: 'Periodic Table',
+      live: 'https://kashyap-vishnudas-periodictable.netlify.app/ ',
+      source: 'https://github.com/Vkashyap1729/assignment-1.git',
       image: mock4,
     },
     {
