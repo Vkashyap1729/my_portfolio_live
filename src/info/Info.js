@@ -133,6 +133,7 @@ export const info = {
     },
     {
       title: 'College Student Management',
+      requirements: 'username : student@edwisely.com password : edwisely@2024',
       live: 'https://edwisely2-0.netlify.app/',
       source: 'https://github.com/Vkashyap1729/Edwisely2.0.git',
       image: mock3,
@@ -145,8 +146,8 @@ export const info = {
     },
     {
       title: 'Project 5',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+      live: 'https://edwisely2-0.netlify.app/',
+      source: 'https://github.com/Vkashyap1729/Edwisely2.0.git',
       image: mock5,
     },
   ],
