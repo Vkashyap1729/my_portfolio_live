@@ -26,6 +26,7 @@ export const info = {
   lastName: 'Vishnudas',
   initials: 'kashyap.v', // the example uses first and last, but feel free to use three or more if you like.
   position: 'a Software Developer',
+  email: 'kashyapvishnudas@gmail.com',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -151,4 +152,10 @@ export const info = {
       image: mock5,
     },
   ],
+  contact: {
+    header:
+      'Thank you for taking the time to view my portfolio! If you have any inquiries, collaboration proposals, or just want to say hello, feel free to reach out to me using the information below:',
+    footer:
+      'I aim to respond to all messages within 24 hours. Looking forward to hearing from you!',
+  },
 };
