@@ -4,10 +4,15 @@ import me from '../../img/self.jpeg';
 import classNames from 'classnames';
 import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
-import { Box } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import { info } from '../../info/Info';
 
 export default function Home() {
+  const downloadCv = async () => {
+    const pdfUrl =
+      'https://drive.google.com/file/d/1P0qdOsffLX6l99qpA6PmCCdUfAKfc7gk/view?usp=drive_link';
+    window.open(pdfUrl, '_blank');
+  };
   return (
     <Box
       component={'main'}
@@ -64,6 +69,14 @@ export default function Home() {
               label={social.label}
             />
           ))}
+        </Box>
+        <Box
+          display={'flex'}
+          gap={'1.5rem'}
+          justifyContent={'center'}
+          fontSize={{ xs: '2rem', md: '2.5rem' }}
+        >
+          <Button onClick={downloadCv}>CV / Resume</Button>
         </Box>
       </Box>
     </Box>
