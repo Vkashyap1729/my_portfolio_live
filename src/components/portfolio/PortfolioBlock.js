@@ -4,15 +4,22 @@ import { Box } from '@mui/material';
 
 function PortfolioBlock(props) {
   const { image, live, source, title, requirements } = props;
-  console.log(requirements);
   return (
     <Box
       display={'flex'}
       flexDirection={'column'}
       justifyContent={'center'}
       alignItems={'center'}
+      paddingLeft={'2rem'}
     >
-      <Box component={'img'} src={image} alt={'mockup'} />
+      <Box
+        component={'img'}
+        src={image}
+        alt={'mockup'}
+        p={'1rem'}
+        mb={{ xs: '1rem', sm: 0 }}
+        mr={{ xs: 0, md: '2rem' }}
+      />
       <h1 style={{ fontSize: '2rem' }}>{title}</h1>
       <p>{requirements}</p>
       <Box

@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './Contact.module.scss';
 import Terminal from '../about/Terminal';
-import { Box, Button } from '@mui/material';
+import { Box, Button, TextareaAutosize } from '@mui/material';
 import { info } from '../../info/Info';
 import SocialIcon from '../home/SocialIcon';
 const Contact = () => {
@@ -59,14 +59,7 @@ const Contact = () => {
             contact{firstName} <span className={Style.green}>(main)</span> ${' '}
           </span>
           <span style={{ color: info.baseColor }}>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              cols="50"
-              maxlength="250"
-              placeholder="Alternatively Type your message (max 250 words):"
-            ></textarea>
+            <TextareaAutosize />
             <br />
             <Button variant="success">Submit</Button>
           </span>
