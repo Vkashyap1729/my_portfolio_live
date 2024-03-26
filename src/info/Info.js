@@ -36,10 +36,10 @@ export const info = {
       emoji: '☕',
       text: 'fueled by coffee',
     },
-    {
-      emoji: '🌎',
-      text: 'based in the India',
-    },
+    // {
+    //   emoji: '🌎',
+    //   text: 'based in the India',
+    // },
     {
       emoji: '💼',
       text: 'Software Engineer at Edwisely',
