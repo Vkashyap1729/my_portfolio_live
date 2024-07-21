@@ -23,9 +23,12 @@ export default function Home() {
       minHeight={'calc(100vh - 175px)'}
     >
       <Box
-        className={classNames(Style.avatar, Style.shadowed)}
+        // className={classNames(Style.avatar, Style.shadowed)}
+        sx={{
+          filter: `drop-shadow(0 -6mm 4mm rgb(0,255,164))`,
+        }}
         alt={'image of developer'}
-        style={{ background: info.gradient }}
+        // style={{ background: info.gradient }}
         component={'img'}
         src={me}
         width={{ xs: '27vh', md: '40vh' }}
@@ -80,5 +83,5 @@ export default function Home() {
         </Box>
       </Box>
     </Box>
-  );
+  )
 }
